@@ -1,0 +1,7 @@
+{
+  "name": "marstek-b2500-ble-mqtt-gateway",
+  "version": "0.1.2",
+  "description": "ESP32 BLE-to-MQTT gateway with a web interface for Marstek B2500 battery state of charge.",
+  "boards": ["esp32dev", "esp32-s3-devkitc-1"],
+  "license": "MIT"
+}
