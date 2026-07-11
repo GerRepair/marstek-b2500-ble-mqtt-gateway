@@ -20,7 +20,7 @@ ESP32-Firmware mit Weboberfläche zum Suchen und Hinzufügen mehrerer Marstek-B2
 - Retained MQTT-Akkustand pro Speicher
 - Optionale Home Assistant MQTT Discovery
 - Anzeigename ändern, Gerät löschen und sofortige Abfrage
-- Automatische GitHub-Action-Builds für ESP32 und ESP32-S3
+
 
 ## Datenfluss
 
