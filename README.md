@@ -1,5 +1,9 @@
 # Marstek B2500 BLE–MQTT Gateway
 
+
+<img width="1173" height="760" alt="image" src="https://github.com/user-attachments/assets/d82a6dd3-f3c2-4502-a711-489fb8cc470f" />
+
+
 ESP32-Firmware mit Weboberfläche zum Suchen und Hinzufügen mehrerer Marstek-B2500-Speicher. Das Gateway liest per Bluetooth ausschließlich den Akkustand (SOC) aus und veröffentlicht ihn über MQTT. Optional werden die Sensoren automatisch über Home Assistant MQTT Discovery angelegt.
 
 > **Hinweis:** Community-Projekt, nicht von Marstek entwickelt oder unterstützt. Das BLE-Protokoll ist nicht offiziell dokumentiert und kann sich zwischen Modellen oder Firmwareständen unterscheiden. Die ESP32-Firmware ist experimentell und sollte zunächst mit einem Speicher getestet werden.
