@@ -39,6 +39,21 @@ Marstek B2500 ── BLE ──► ESP32 ── WLAN/MQTT ──► Home Assista
 
 ### 1. Bauen und flashen
 
+1. Visual Studio Code öffnen und "PlatformIO" auf der Linken Seite unter Erweiterung hinzufügen
+<img width="1235" height="730" alt="image" src="https://github.com/user-attachments/assets/7b48b8fd-6bc8-4c86-a92f-e9bb6b3d1edd" />
+
+2. Projekt-Ordner öffnen  File->Open Folder -> marstek-b2500-web-gateway öffnen
+
+3 Build und Upload 
+
+<img width="651" height="685" alt="image" src="https://github.com/user-attachments/assets/234a3461-11ac-4190-b791-1b13875b8fbc" />
+
+Nach dem Upload startet der ESP32 den AP zum einrichten.
+
+
+
+Terminal
+
 ```bash
 pio run -e esp32dev -t upload
 pio device monitor -b 115200
