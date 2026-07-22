@@ -124,36 +124,7 @@ marstek/aabbcc112233/availability
 
 Weitere Details: [MQTT-Schnittstelle](docs/MQTT.md)
 
-## GitHub-Projekt verwenden
 
-Das Repository enthält:
-
-- Build-Workflow für jeden Push und Pull Request
-- Release-Workflow für Tags wie `v0.1.2`
-- Issue-Vorlagen
-- Pull-Request-Vorlage
-- Sicherheits- und Beitragsrichtlinien
-
-Anleitung: [Zu GitHub hochladen](docs/GITHUB_UPLOAD.md)
-
-## Projektstruktur
-
-```text
-.github/
-  workflows/
-  ISSUE_TEMPLATE/
-docs/
-  images/
-src/
-  main.cpp
-  web_ui.h
-platformio.ini
-README.md
-LICENSE
-CHANGELOG.md
-SECURITY.md
-CONTRIBUTING.md
-```
 
 ## Technische Eckdaten
 
